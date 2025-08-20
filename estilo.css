@@ -1,3 +1,26 @@
 body{
-    background-color: gold;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.parrafo{
+    color:white;
+    background-color:#9900ff
+    ;}
+#contenedor1 {
+    width: 50vw;
+    height: 80vh;
+    border: 1px solid black
+}
+#contenedor2 {
+    width: 50vw;
+    height: 80vh;
+    border: 1px solid black; 
+    margin: 100px;
+}
+.cuadrado{
+    width: 25%;
+    height: 25%;
+    border: 1px solid black
 }
