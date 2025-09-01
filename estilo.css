@@ -8,6 +8,20 @@ body{
     color:white;
     background-color:#9900ff
     ;}
+
+    .titulo {
+        font-family: "Story Script", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 5em; 
+    }
+
+    .titulo:hover {
+        font-weight: 700;
+        color:#9900ff
+        cursor: pointer;
+
+    }
 #contenedor1 {
     width: 50vw;
     height: 80vh;
@@ -163,3 +177,35 @@ border: 1px solid black;
 margin: 0 auto;
 position: relative;
 }
+
+@keyframes redondear {
+    0% {
+     border-radius: 0%;
+    background-color: #9900ff;
+    }
+
+    50% {
+    border-radius: 25%;
+    background-color: #4400ff;
+}
+
+100% {
+    border-radius: 50%;
+    background-color: black;
+}
+   
+}
+
+.cuadrado5{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.cuadrado5:hover {
+    animation: redondear 2s linear infinite alternate;
+}
+}
+
