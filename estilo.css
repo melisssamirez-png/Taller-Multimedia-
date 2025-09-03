@@ -14,12 +14,17 @@ body{
         font-weight: 300;
         font-style: normal;
         font-size: 5em; 
+        position: relative;
+      
+
+
     }
 
     .titulo:hover {
         font-weight: 700;
         color:#9900ff
         cursor: pointer;
+        
 
     }
 #contenedor1 {
